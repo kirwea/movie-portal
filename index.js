@@ -15,3 +15,12 @@ async function getMovies(url) {
 
     showMovies(data.results)
 }
+
+function showMovies(movies) {
+    main.innerHTML = ''
+
+    movies.forEach((movie) => {
+        const { title, poster_path, vote_average, overview } = movie
+
+        const movieEl = document.createElement('div')
+        movieEl.classList.add('movie')
