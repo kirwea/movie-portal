@@ -29,11 +29,11 @@ body {
     font-family: inherit;
     font-size: 1rem;
     padding: 0.5rem 1rem;
-    color: #fff;
+    color: rgba(255, 255, 255, 0.897);
   }
 
   .search::placeholder {
-    color: #7378c5;
+    color: #73c588;
   }
   
   .search:focus {
